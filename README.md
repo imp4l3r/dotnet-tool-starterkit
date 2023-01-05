@@ -4,16 +4,24 @@ Starter kit for dotnet tools on the cli.
 ## Installation (linux)
 Already implements a statically typed implementation of the chuck norris api
 
-Install by running `./install-tool.sh`
+To install the tool go to the dotnet-tool-starterkit directory and execute the `scriptwrapper.sh` script by invoking it with the following arguments:
 
-Update the tool by running `./update-tool.sh`
+```bash
+./scriptwrapper.sh install
+```
+
+To update the tool after having made modifications to it run the following script
+```bash
+./scriptwrapper.sh update
+```
 
 Make sure ~/.dotnet/tools/ has been added to your $PATH on linux
 
-The same script can be used for updating the tool if it is extended with further functionality.
 
 ## Installation (windows)
-WIP
+- [ ] TODO Write ScriptWrapper in powershell
+- [ ] TODO Write Install tool script  
+- [ ] TODO Write Update tool script  
 
 
 ## Useage
