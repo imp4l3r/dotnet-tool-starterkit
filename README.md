@@ -4,7 +4,9 @@ Starter kit for dotnet tools on the cli.
 ## Installation (linux)
 Already implements a statically typed implementation of the chuck norris api
 
-Install by running update-tool.sh
+Install by running `./install-tool.sh`
+
+Update the tool by running `./update-tool.sh`
 
 Make sure ~/.dotnet/tools/ has been added to your $PATH on linux
 
