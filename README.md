@@ -6,12 +6,12 @@ Already implements a statically typed implementation of the chuck norris api
 
 To install the tool go to the dotnet-tool-starterkit directory and execute the `scriptwrapper.sh` script by invoking it with the following arguments:
 
-```bash
+```sh
 ./scriptwrapper.sh install
 ```
 
 To update the tool after having made modifications to it run the following script
-```bash
+```sh
 ./scriptwrapper.sh update
 ```
 
@@ -28,7 +28,7 @@ Make sure ~/.dotnet/tools/ has been added to your $PATH on linux
 Adding more commands is as simple as adding a new argument in Program.cs and an if-statement checking for it.
 For example, to invoke the chucknorris api invoke this tool with the following parameter
 
-```bash
+```sh
 chucknorris fetch
 ```
 
@@ -44,6 +44,6 @@ if (arguments == "fetch")
 
 To rename the name of the tool simply edit the property *ToolCommandName* in the .csproj file
 
-```
+```xml
     <ToolCommandName>chucknorris</ToolCommandName>
 ```
